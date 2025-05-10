@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tata Usaha</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Data Mahasiswa dan Dosen</h1>
+
+  <h2>Form Mahasiswa</h2>
+  <form id="formMahasiswa">
+    <input type="text" id="namaMhs" placeholder="Nama Mahasiswa" required>
+    <input type="text" id="nrpMhs" placeholder="NRP" required>
+    <input type="date" id="tglMhs" required>
+    <input type="text" id="fakultasMhs" placeholder="Fakultas" required>
+    <input type="text" id="prodiMhs" placeholder="Program Studi" required>
+    <button type="submit">Tambah Mahasiswa</button>
+  </form>
+
+  <h2>Form Dosen</h2>
+  <form id="formDosen">
+    <input type="text" id="namaDosen" placeholder="Nama Dosen" required>
+    <input type="text" id="nipDosen" placeholder="NIP" required>
+    <input type="date" id="tglDosen" required>
+    <input type="text" id="fakultasDosen" placeholder="Fakultas" required>
+    <input type="text" id="prodiDosen" placeholder="Program Studi" required>
+    <button type="submit">Tambah Dosen</button>
+  </form>
+
+  <h3>Data Mahasiswa</h3>
+  <ul id="daftarMahasiswa"></ul>
+
+  <h3>Data Dosen</h3>
+  <ul id="daftarDosen"></ul>
+
+  <h3>Data Surat Pengajuan</h3>
+  <ul id="daftarSurat"></ul>
+
+  <script src="../script.js"></script>
+</body>
+</html>
